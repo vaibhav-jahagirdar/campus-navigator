@@ -1,0 +1,4 @@
+websocket-server/**
+src/modules/indoor_nav/backend/**
+**/*.py
+**/*.pkl
