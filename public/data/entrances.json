@@ -1,0 +1,148 @@
+{
+  "entrances": [
+    {
+      "id": "AIT-W133118212",
+      "coord": [
+        77.4825987,
+        13.0846863
+      ],
+      "distanceToPath": 7.5,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W204151838",
+      "coord": [
+        77.4842841,
+        13.0837591
+      ],
+      "distanceToPath": 0.56,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W348106182",
+      "coord": [
+        77.4861425,
+        13.0855691
+      ],
+      "distanceToPath": 6.43,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W348106243",
+      "coord": [
+        77.4856999,
+        13.0842941
+      ],
+      "distanceToPath": 7.44,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W348106494",
+      "coord": [
+        77.4847174,
+        13.0852915
+      ],
+      "distanceToPath": 3.32,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W348106507",
+      "coord": [
+        77.4860831,
+        13.0856226
+      ],
+      "distanceToPath": 5.25,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W723769418",
+      "coord": [
+        77.4836247,
+        13.0839626
+      ],
+      "distanceToPath": 2.33,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W726063053",
+      "coord": [
+        77.4850995,
+        13.0848501
+      ],
+      "distanceToPath": 1.9,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W726063342",
+      "coord": [
+        77.4847317,
+        13.0844353
+      ],
+      "distanceToPath": 5.38,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W726063581",
+      "coord": [
+        77.4849235,
+        13.08421
+      ],
+      "distanceToPath": 1.5,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W726113988",
+      "coord": [
+        77.4857725,
+        13.084278
+      ],
+      "distanceToPath": 13.16,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W726114884",
+      "coord": [
+        77.4854606,
+        13.0858164
+      ],
+      "distanceToPath": 14.87,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W726115074",
+      "coord": [
+        77.4852334,
+        13.0852423
+      ],
+      "distanceToPath": 9.64,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W726116278",
+      "coord": [
+        77.4825354,
+        13.0847995
+      ],
+      "distanceToPath": 0.92,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W726118154",
+      "coord": [
+        77.4825143,
+        13.0843724
+      ],
+      "distanceToPath": 40.95,
+      "source": "auto-edge-nearest-path"
+    },
+    {
+      "id": "AIT-W726181242",
+      "coord": [
+        77.4840664,
+        13.0845181
+      ],
+      "distanceToPath": 5.18,
+      "source": "auto-edge-nearest-path"
+    }
+  ]
+}

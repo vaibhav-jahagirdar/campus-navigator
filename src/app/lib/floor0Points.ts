@@ -1,0 +1,64 @@
+export type FloorPoint = {
+  id: number;
+  x: number;
+  y: number;
+  fx: number;
+  fy: number;
+  tag: string;
+};
+
+export const floor0Points: FloorPoint[] = [
+  { id: 1,  x: 0,    y: 0,    fx: 357, fy: 155,  tag: "entrance" },
+  { id: 2,  x: 9,    y: 0,    fx: 467, fy: 153,  tag: "Class GF24" },
+  { id: 3,  x: 18,   y: 0,    fx: 594, fy: 155,  tag: "" },
+  { id: 4,  x: 24,   y: 0,    fx: 673, fy: 154,  tag: "" },
+  { id: 5,  x: 29,   y: 0,    fx: 749, fy: 153,  tag: "GF20" },
+  { id: 6,  x: 34,   y: 0,    fx: 806, fy: 153,  tag: "" },
+  { id: 7,  x: 40,   y: 0,    fx: 845, fy: 152,  tag: "" },
+
+  // NEW POINT
+  { id: 8,  x: 40,   y: 870,  fx: 241, fy: 0,    tag: "" },
+
+  // OLD POINT 8 → NOW 9
+  { id: 9,  x: 45,   y: 0,    fx: 866, fy: 156,  tag: "" },
+  { id: 10, x: 49,   y: 0,    fx: 955, fy: 157,  tag: "" },
+
+  { id: 11, x: 48,   y: 6.5,  fx: 953, fy: 234,  tag: "" },
+  { id: 12, x: 48,   y: 13.8, fx: 953, fy: 332,  tag: "" },
+  { id: 13, x: 48,   y: 18.5, fx: 955, fy: 398,  tag: "" },
+  { id: 14, x: 48,   y: 23.5, fx: 963, fy: 457,  tag: "" },
+
+  { id: 15, x: 44,   y: 23.5, fx: 881, fy: 457,  tag: "" },
+  { id: 16, x: 44,   y: 33.5, fx: 863, fy: 595,  tag: "" },
+  { id: 17, x: 44,   y: 42.5, fx: 861, fy: 724,  tag: "" },
+  { id: 18, x: 44,   y: 51,   fx: 863, fy: 846,  tag: "" },
+  { id: 19, x: 44,   y: 59,   fx: 865, fy: 968,  tag: "" },
+  { id: 20, x: 44,   y: 63.27,fx: 863, fy: 1083, tag: "" },
+
+  { id: 21, x: 48.34,y: 65,   fx: 925, fy: 1159, tag: "" },
+  { id: 22, x: 48.34,y: 70,   fx: 924, fy: 1228, tag: "machine lab" },
+  { id: 23, x: 48,   y: 81,   fx: 915, fy: 1369, tag: "computer lab & machine lab 2" },
+
+  { id: 24, x: 42,   y: 68,   fx: 845, fy: 1220, tag: "" },
+  { id: 25, x: 37,   y: 67,   fx: 776, fy: 1195, tag: "" },
+  { id: 26, x: 32,   y: 68,   fx: 706, fy: 1200, tag: "" },
+  { id: 27, x: 27,   y: 68,   fx: 630, fy: 1205, tag: "" },
+  { id: 28, x: 23,   y: 68,   fx: 584, fy: 1206, tag: "" },
+
+  { id: 29, x: 21,   y: 77,   fx: 516, fy: 1354, tag: "R&D and EEE HOD" },
+  { id: 30, x: 21,   y: 97,   fx: 512, fy: 1627, tag: "HV LAB" },
+  { id: 31, x: 21,   y:108,   fx: 510, fy: 1741, tag: "end" },
+
+  { id: 32, x: 14,   y: 68,   fx: 501, fy: 1208, tag: "" },
+  { id: 33, x: 14,   y: 61,   fx: 516, fy: 1124, tag: "" },
+  { id: 34, x: 14,   y: 55,   fx: 519, fy: 1040, tag: "" },
+  { id: 35, x: 15,   y: 49,   fx: 532, fy: 943,  tag: "" },
+  { id: 36, x: 15,   y: 39,   fx: 539, fy: 801,  tag: "" },
+  { id: 37, x: 15,   y: 29,   fx: 535, fy: 676,  tag: "EC HOD" },
+
+  { id: 38, x: 11,   y: 26,   fx: 468, fy: 614,  tag: "" },
+  { id: 39, x: 11,   y: 22,   fx: 469, fy: 509,  tag: "" },
+  { id: 40, x: 11,   y: 15,   fx: 469, fy: 410,  tag: "" },
+  { id: 41, x: 11,   y: 8,    fx: 451, fy: 353,  tag: "" },
+  { id: 42, x: 11,   y: 3,    fx: 379, fy: 320,  tag: "" }
+];
