@@ -1,19 +1,13 @@
-# Node
 node_modules
 .next
-dist
-
-# Env
 .env
 .env.local
 
-# Python
-**/venv
-**/.venv
-__pycache__/
+venv
+__pycache__
 *.pyc
-*.pkl
 
-# OS junk
 .DS_Store
-Thumbs.db
+public/Library
+websocket-server/dist
+.vercel
