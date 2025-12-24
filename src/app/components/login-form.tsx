@@ -128,7 +128,7 @@ export function LoginForm() {
         disabled={loading}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
-        className="relative w-full mt-6 group"
+        className="relative w-full  mt-6 group"
       >
         <div className="absolute inset-0 bg-gradient-to-r from-gray-400 to-gray-600 rounded-lg blur opacity-40 group-hover:opacity-60 transition-opacity duration-200" />
 

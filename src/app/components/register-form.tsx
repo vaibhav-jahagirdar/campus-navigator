@@ -80,7 +80,7 @@ export function RegisterForm() {
           className="relative"
         >
           <div className="absolute inset-0 bg-red-500/20 rounded-lg blur opacity-75" />
-          <div className="relative bg-red-500/10 border border-red-500/30 rounded-lg p-3 text-red-300 text-sm">
+          <div className="relative bg-red-50 border border-red-300 rounded-lg p-3 text-red-700 text-sm">
             {error}
           </div>
         </motion.div>
@@ -88,7 +88,7 @@ export function RegisterForm() {
 
       {/* Name field */}
       <motion.div variants={itemVariants}>
-        <label className="block text-sm font-medium text-gray-300 mb-2">Full Name</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
         <motion.input
           whileFocus={{ scale: 1.02 }}
           type="text"
@@ -96,13 +96,13 @@ export function RegisterForm() {
           onChange={(e) => setName(e.target.value)}
           required
           placeholder="Your Name"
-          className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-white/30 focus:ring-2 focus:ring-white/10 transition-all duration-200"
+          className="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:border-gray-600 focus:ring-2 focus:ring-gray-200 transition-all duration-200"
         />
       </motion.div>
 
       {/* Email field */}
       <motion.div variants={itemVariants}>
-        <label className="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
         <motion.input
           whileFocus={{ scale: 1.02 }}
           type="email"
@@ -110,13 +110,13 @@ export function RegisterForm() {
           onChange={(e) => setEmail(e.target.value)}
           required
           placeholder="you@example.com"
-          className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-white/30 focus:ring-2 focus:ring-white/10 transition-all duration-200"
+          className="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:border-gray-600 focus:ring-2 focus:ring-gray-200 transition-all duration-200"
         />
       </motion.div>
 
       {/* Password field */}
       <motion.div variants={itemVariants}>
-        <label className="block text-sm font-medium text-gray-300 mb-2">Password</label>
+        <label className="block text-sm font-medium text-gray-700 mb-2">Password</label>
         <motion.input
           whileFocus={{ scale: 1.02 }}
           type="password"
@@ -124,7 +124,7 @@ export function RegisterForm() {
           onChange={(e) => setPassword(e.target.value)}
           required
           placeholder="••••••••"
-          className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-white/30 focus:ring-2 focus:ring-white/10 transition-all duration-200"
+          className="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:border-gray-600 focus:ring-2 focus:ring-gray-200 transition-all duration-200"
         />
       </motion.div>
 
@@ -136,16 +136,16 @@ export function RegisterForm() {
         whileTap={{ scale: 0.98 }}
         className="relative w-full mt-6 group"
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-400 to-gray-600 rounded-lg blur opacity-40 group-hover:opacity-60 transition-opacity duration-200" />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-600 to-gray-400 rounded-lg blur opacity-40 group-hover:opacity-60 transition-opacity duration-200" />
 
         {/* Button content */}
-        <div className="relative bg-gradient-to-r from-gray-300 to-gray-500 hover:from-gray-200 hover:to-gray-400 text-black font-semibold py-3 px-4 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed">
+        <div className="relative bg-gradient-to-r from-gray-700 to-gray-500 hover:from-gray-800 hover:to-gray-600 text-white font-semibold py-3 px-4 rounded-lg transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed">
           {loading ? (
             <span className="flex items-center justify-center gap-2">
               <motion.div
                 animate={{ rotate: 360 }}
                 transition={{ duration: 1, repeat: Number.POSITIVE_INFINITY, ease: [0, 0, 1, 1] }}
-                className="w-4 h-4 border-2 border-black/30 border-t-black rounded-full"
+                className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full"
               />
               Creating account...
             </span>
