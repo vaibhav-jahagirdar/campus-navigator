@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Campus Navigator
 
-## Getting Started
+A full-stack smart campus navigation system with real-time IoT dashboards.
 
-First, run the development server:
+## Problem
+Large campuses rely on static maps and notice boards, which fail to provide reliable navigation and real-time availability information for students, staff, parents, and visitors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Solution
+Campus Navigator provides:
+- Outdoor navigation using map-based routing
+- Indoor navigation for buildings and classrooms
+- Real-time dashboards for library seating, parking slots, and events
+- Admin-controlled access for updates and monitoring
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
+- Frontend: Next.js, React, Tailwind CSS
+- Backend: Node.js, Express
+- Database: MongoDB
+- Real-time: Socket.IO
+- IoT Integration: Python scripts + Raspberry Pi (simulated for demo)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Architecture Overview
+- Frontend consumes REST APIs and Socket.IO events
+- Backend validates incoming sensor data and broadcasts updates
+- WebSocket server handles real-time communication
+- MongoDB stores persistent state and configurations
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key Features
+- Outdoor navigation using shortest-path routing
+- Indoor navigation with predefined node paths
+- Real-time library seat availability
+- Real-time parking slot status
+- Event dashboard with admin access
 
-## Learn More
+## Live Demo
+https://campus-navigator-v.vercel.app
 
-To learn more about Next.js, take a look at the following resources:
+## Portfolio
+https://vjahagirdar.vercel.app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Notes
+This project was built end-to-end as a learning-focused, production-style system, emphasizing real data flow, system behavior, and debugging over demo-level CRUD examples.
